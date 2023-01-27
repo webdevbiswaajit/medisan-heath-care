@@ -10,6 +10,7 @@ module.exports = {
         "Brand-green": "#0C5129",
         "Brand-Jacarta": "#402E5D",
         "Brand-Pigment": "#EE1A21",
+        "Raisin-Black": "#202020",
       },
     },
   },

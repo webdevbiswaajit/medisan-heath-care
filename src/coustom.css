@@ -64,3 +64,18 @@ body {
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background: #fff !important;
 }
+
+/* ====================Swiper-end============ */
+.line-area {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #EE1A21;
+    top: 28px;
+    left: 200px;
+}

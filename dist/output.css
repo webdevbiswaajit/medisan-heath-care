@@ -576,6 +576,30 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -596,6 +620,10 @@ video {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .items-center {
   align-items: center;
 }
@@ -606,6 +634,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .rounded-md {
@@ -651,6 +683,21 @@ video {
   padding-right: 2.5rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -665,14 +712,29 @@ video {
   line-height: 1.75rem;
 }
 
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
 }
 
-.text-7xl {
-  font-size: 4.5rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-semibold {
@@ -681,6 +743,10 @@ video {
 
 .font-medium {
   font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
@@ -693,12 +759,32 @@ video {
   color: rgb(12 81 41 / var(--tw-text-opacity));
 }
 
+.text-Raisin-Black {
+  --tw-text-opacity: 1;
+  color: rgb(32 32 32 / var(--tw-text-opacity));
+}
+
+.text-Brand-Pigment {
+  --tw-text-opacity: 1;
+  color: rgb(238 26 33 / var(--tw-text-opacity));
+}
+
 .hover\:bg-Brand-Jacarta:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(64 46 93 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-Brand-Pigment:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 26 33 / var(--tw-bg-opacity));
+}
+
 .hover\:text-Brand-Pigment:hover {
   --tw-text-opacity: 1;
   color: rgb(238 26 33 / var(--tw-text-opacity));
+}
+
+.hover\:text-Brand-Jacarta:hover {
+  --tw-text-opacity: 1;
+  color: rgb(64 46 93 / var(--tw-text-opacity));
 }
