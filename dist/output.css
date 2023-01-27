@@ -572,16 +572,8 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-16 {
-  margin-top: 4rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .flex {
@@ -594,14 +586,6 @@ video {
 
 .h-16 {
   height: 4rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-2\/4 {
-  width: 50%;
 }
 
 .w-3\/5 {
@@ -681,13 +665,13 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
