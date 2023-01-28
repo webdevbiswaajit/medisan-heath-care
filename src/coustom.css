@@ -185,3 +185,13 @@ body {
     right: -90px;
 
 }
+
+.line4 {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #EE1A21;
+    top: 28px;
+    right: -90px;
+}
