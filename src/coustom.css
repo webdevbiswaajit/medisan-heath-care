@@ -158,3 +158,30 @@ body {
 .service_main:hover .Sevice_over {
     left: 0%;
 }
+
+.mission {
+    position: relative;
+}
+
+.mission_top {
+    position: absolute;
+    content: '';
+}
+
+.mission_bottom {
+    position: absolute;
+    content: '';
+    right: 50px;
+    bottom: 40px;
+}
+
+.line3 {
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #EE1A21;
+    top: 28px;
+    right: -90px;
+
+}
