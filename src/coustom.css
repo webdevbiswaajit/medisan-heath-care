@@ -2,6 +2,32 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+.commom-hero {
+    position: relative;
+    background-image: url(../img/hero-common.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 11;
+}
+
+.commom-hero::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #402E5D;
+    opacity: .7;
+    z-index: -11;
+}
+
+
+/* ====================Common=================== */
+
+
 .slide_bg {
     position: relative;
     background-size: cover;
@@ -195,6 +221,16 @@ body {
     right: -90px;
 }
 
+.line5 {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    top: 20px;
+    right: -60px;
+}
+
 
 .management {
     position: relative;
@@ -371,4 +407,18 @@ body {
     background: #000;
     opacity: .8;
     z-index: -11;
+}
+
+/* =====================Footer================= */
+.link-footer {
+    border-bottom: 1px solid transparent;
+}
+
+.link-footer:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* ==========================Doctor-page============== */
+.doctor_search {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
