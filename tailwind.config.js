@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html", "doctor.html"],
+  content: ["index.html", "doctor.html", "notices.html"],
   theme: {
     fontFamily: {
       Titillium: "Titillium Web, sans-serif",
